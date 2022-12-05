@@ -11,6 +11,10 @@ public class LibraryController {
     public String indexHome(){
         return "Welcome to library home index(login) page";
     }
+    @PostMapping("/userlogin")
+    public String userLogin(){
+        return "welcome user";
+    }
 
 
 }
