@@ -1,5 +1,6 @@
 package com.example.library_backend.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,6 +23,10 @@ public class LibraryController {
     @PostMapping("/bookentry")
     public String bookEntry(){
         return "Add your book";
+    }
+    @GetMapping("/viewall")
+    public String viewAll(){
+        return "Welcome to view all books";
     }
 
 
