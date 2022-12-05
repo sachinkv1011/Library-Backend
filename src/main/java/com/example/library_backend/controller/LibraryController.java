@@ -28,6 +28,10 @@ public class LibraryController {
     public String viewAll(){
         return "Welcome to view all books";
     }
+    @PostMapping("/search")
+    public String search(){
+        return "Please search your book";
+    }
 
 
 }
