@@ -7,5 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class LibraryController {
 
+    @PostMapping("/")
+    public String indexHome(){
+        return "Welcome to library home index(login) page";
+    }
+
 
 }
