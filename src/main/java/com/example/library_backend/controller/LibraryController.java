@@ -17,7 +17,11 @@ public class LibraryController {
     }
     @PostMapping("/registration")
     public String registration(){
-        return "Welcome to registrtion page";
+        return "Welcome to registration page";
+    }
+    @PostMapping("/bookentry")
+    public String bookEntry(){
+        return "Add your book";
     }
 
 
